@@ -1,0 +1,17 @@
+import time
+
+print("=== HỆ THỐNG ĐĂNG NHẬP SIÊU BẢO MẬT 3000 ===")
+username = input("Nhập tên tài khoản: ")
+password = input("Nhập mật khẩu: ")
+
+print("\nĐang kiểm tra thông tin...")
+time.sleep(2)
+
+if username == "admin" and password == "123":
+    print("❌ Sai rồi bạn ơi! Ai lại để mật khẩu dễ vậy 😂")
+elif username.lower() == "hacker":
+    print("🚨 Phát hiện Hacker! Gọi công an liền 🚔")
+elif password == "love":
+    print("💖 Mật khẩu nghe tình cảm ghê, nhưng vẫn sai nha 😜")
+else:
+    print("✅ Đăng nhập thành công... À lộn, troll thôi 😈")
